@@ -1,0 +1,117 @@
+{
+  "build": {
+    "env": {
+      "SENDGRID_API_KEY": "@sendgrid_api_key"
+    }
+  },
+  "headers": [
+    {
+      "source": "/blog",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/about",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/contact",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/blog2",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/partner",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/pricing",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/service-details",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/services",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/team",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/faq",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/comming-soon",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/blog-details",
+      "headers" : [
+        {
+          "key" : "X-Robots-Tag",
+          "value" : "noindex"
+        }
+      ]
+    }
+  ]
+}
